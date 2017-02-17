@@ -8,7 +8,6 @@
 #    Revision history:
 #      - 17 February 2017  | 1.0  | Initial release
 #
-#
 echo "CloudCenter_EXTERNAL_SERVICE_LOG_MSG_START"
 echo $0 $1
 
