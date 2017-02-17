@@ -26,5 +26,3 @@ echo "Debug level:      " $DEBUG_LEVEL
 if [ "$1" == "-r" ]; then
     /usr/bin/python2.7 $HOME/ansible-cliqr/ATC.py
 fi
-
-
