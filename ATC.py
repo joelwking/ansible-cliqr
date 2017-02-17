@@ -5,6 +5,13 @@ ATC.py
 
   Ansible Tower Connector
 
+    Copyright (c) 2017 World Wide Technology, Inc.
+    All rights reserved.
+    
+    author: Joel W. King, World Wide Technology
+    Revision history:
+       - 17 February 2017  | 1.0  | Initial release
+
 
     References:
          https://github.com/datacenter/cloudcenter-content/tree/master/other/ansible-tower
