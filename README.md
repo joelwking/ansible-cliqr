@@ -6,9 +6,8 @@ This code emulates the framework of Phantom Cyber, enabling code reuse, without 
 > [Data Exfiltration Monitoring with Phantom, Ansible, and Cisco ACI](https://blog.phantom.us/2016/08/22/data-exfiltration-monitoring-with-phantom-ansible-and-cisco-aci/)
 
 ## Initiating Ansible Tower Jobs from Cloud Center
-ADD MORE DETAIL
-### Clone the repositiory
-`git clone https://github.com/joelwking/ansible-cliqr.git`
+See the documentation on [External Services] (http://docs.cloudcenter.cisco.com/display/CCD46/External+Service)
+
 ### Environmental variables
 The program uses environmental variables as input. Set them from Cloud Center. We need the IP address or host name of the Ansible Tower instance, along with the job template ID to execute (it can be either the numeric value or the text name) and optionally any extra variables needed to launch the job. The extra vars are key, value pairs separated by a comma. Extra vars is optional. If you specify extra vars, the Ansible Tower template must have the `prompt on launch` box checked.
 ```
@@ -24,8 +23,10 @@ export JOB_TEMPLATE_ID=f5_check
 export DEAD_INTERVAL=10
 export -n EXTRA_VARS
 ```
+### Download
+`curl https://raw.githubusercontent.com/joelwking/ansible-cliqr/master/atc.sh -o atc.sh`
 ### Run the program
-`./ansible-cliqr/atc.sh -r`
+` /bin/bash ./atc.sh`
 
 ## cliqr_gather_facts
 This module was written to experiment with the CliQr API to return facts to an Ansible playbook.
