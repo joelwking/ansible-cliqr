@@ -5,6 +5,12 @@ This code emulates the framework of Phantom Cyber, enabling code reuse, without 
 
 > [Data Exfiltration Monitoring with Phantom, Ansible, and Cisco ACI](https://blog.phantom.us/2016/08/22/data-exfiltration-monitoring-with-phantom-ansible-and-cisco-aci/)
 
+## Reference material
+This use case was presented on the 13th July 2017 at the Ansible Durham meetup.
+> [Slides](https://www.slideshare.net/joelwking/integrating-ansible-tower-with-security-orchestration-and-cloud-management)
+
+> [Integrating Ansible Tower with security orchestration and cloud management](https://www.meetup.com/Ansible-Durham/events/240765174/)
+
 ## Initiating Ansible Tower Jobs from Cloud Center
 See the documentation on [External Services] (http://docs.cloudcenter.cisco.com/display/CCD46/External+Service)
 
